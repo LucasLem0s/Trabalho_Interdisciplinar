@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html ,body {
+  background-color: white;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%; /* Garante que o corpo ocupe toda a altura da janela */
+  margin: 0; /* Remove margens padrão */
+  display: flex; /*Usando Flexbox*/
+  flex-direction: column; /* Direção da coluna */
+  line-height: 1.6; /* Melhor espaçamento entre linhas */
+  display: block;
+ 
+    
+}/* Cabeçalho */
+header {
+    background-color: #0c08f7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .botoes h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header nav ul li a button:hover {
+    background-color: #4f93c4;
+}
+.text {
+    color: black;
+    text-align: center;
+    padding: 15px;
+} 
+.container{
+    display: flex; /* Torna as divs dentro deste contêiner alinhadas horizontalmente */
+    gap: 20px; /* Adiciona um espaço entre os itens */
+    flex: 1;
+    
+} 
+.conteudo{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    padding: 30px;
+    background: #3498db;
+    border-radius: 8px; 
+    /*box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);*/
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidade */
+    text-align: center;
+    flex: 3;    
+    justify-content: space-between; /* Espaço entre os itens */
+    margin: 20px; /* Espaçamento externo */
+}
+.texto{
+    flex: 1; /* Permite que o texto ocupe o espaço restante */
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+    margin-bottom: 20px; /* Espaço entre o texto e a imagem */
+}
+#ed{
+    max-width: 100%; /* Responsivo */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas, opcional */
+}
+.ibm{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+   
+}
+#rodape {
+    background-color: #0c08f7;
+    color: yellow;
+    margin-top: auto;
+    text-align: center;
+    padding: 10px 0;
+    position: relative  ;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+}
+.home {
+    display: block ;
+    background: #2e2bfc;
+    
+}
+.home button {
+    float: right;
+    cursor: pointer;
+    
+}
+/* Melhorando o espaçamento dos parágrafos */   
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: justify; /* Justificando o texto para um visual mais organizado */
+}
+
+/* Melhorando o espaçamento para a imagem */
+#ed, .conteudo img {
+    max-width: 100%;
+    height: auto;
+}
+#print_jogo, .conteudo img {
+    max-width: 100%;
+    height: auto;
+    border: black solid 2px;
+}
+#teclas {
+    width: 50px;
+    border: none;
+    margin-right: 50px;
+}
+#espaco{
+    width: 50px;
+    border: none;
+    margin-right: 50px;    
+}
+#texto_jogo{
+    text-align: justify;
+    width: 90%;
+}
+#equipe img{
+    border: solid #3498db 3px;
+    border-radius: 200px;
+    width: 350px;
+}
+    

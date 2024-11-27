@@ -1,0 +1,125 @@
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #080808;
+    background-image: url('FUNDOSITE.png'); /* Insira o caminho da sua imagem aqui */
+    background-size: cover; /* Faz a imagem cobrir toda a área do body */
+    background-position: center; /* Centraliza a imagem no background */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0c08f7;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .botoes h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav ul li a button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+header nav ul li a button:hover {
+    background-color: #4f93c4;
+}
+
+/* Seção principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    color: #fefeff;
+}
+
+.intro p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Caixa de temas */
+.theme-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.theme-box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.theme-box h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.theme-box p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.theme-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.theme-box a button {
+    background-color: #3498db;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.theme-box a button:hover {
+    background-color: #2980b9;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0c08f7;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
